@@ -1,2 +1,2 @@
-# laba1
-i use arch btw 
+# Rest_API_server
+![Static Badge](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)

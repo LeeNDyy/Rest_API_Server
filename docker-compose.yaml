@@ -1,0 +1,11 @@
+services:
+  # Основное приложение
+  app:
+    build: .
+    ports:
+      - "6080:6080"  # Пробрасываем порт 6080 на хост
+    environment:
+      - PORT=6080
+    volumes:
+      - .:/app
+    restart: unless-stopped

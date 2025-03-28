@@ -18,12 +18,11 @@ docker compose up --build
 This command allows you to collect all containers and immediately launch them for further work
 
 After that you will have 4 containers, 3 with the same application and nginx, to check the work
-you need to follow the website link that will appear in the terminal after starting the project 
-you can also chek the work in postman:
+you need to follow the website link that will appear in the terminal after starting the project: 
 
 Open one of the /app/routers/contact.py or /app/routers/group.py files. At the very end of the code, there will be a long request text. You can remove the comments and watch the changes on the page or in the VS Code console.
 
 # Postman
+You can also chek the work in postman:
 In this project there are two objects: contect, group and for each of them queries are written: POST, GET, PUT, DELETE
 To check the work, go to postman and write request. Example: http://0.0.0.0.6081/api/v1/contact/, it's post request for contact.
-
